@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"cc_mall/conf"
+)
 
 func main() {
-	fmt.Print("12465")
+	conf.Init()
 }
